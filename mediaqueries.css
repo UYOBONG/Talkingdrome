@@ -1,0 +1,52 @@
+@media (min-width: 480px){
+	#nav-link{
+		display: none;
+	}
+	.toggle{
+		top: 20px;
+		position: absolute;
+		font-size: 25px;
+	}
+	.toggle-icon:hover{
+		color: white;
+		background-color: brown;
+		border-radius: 4px;
+		padding: 5px;
+		font-size: 40px;
+	}
+#slider {
+	width: 100%;
+	height: 300px;
+}
+.slide-items{
+	display: block;
+}
+.slide-items img{
+	width: 100%;
+	height: 300px;
+}
+}
+
+
+@media (min-width: 768px){
+	#nav-link{
+		display: inline-block;
+	}
+	.toggle{
+		display: none;
+	}
+	#slider {
+	width: 100%;
+	height: 500px;
+}
+.slide-items{
+	display: block;
+}
+.slide-items img{
+	width: 100%;
+	height: 500px;
+	margin-right: 0px;
+	margin-left: 0px; 
+}
+}
+
